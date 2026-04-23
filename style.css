@@ -263,7 +263,8 @@ z-index: -1;}
     .nav-item{margin: 16px 0;}
 
     .nav-menu.active{
-        top: 70px;
+        padding: 0;
+        top: 90px;
         z-index: -1;
      }
 .navbar { 
