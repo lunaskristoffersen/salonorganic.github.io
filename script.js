@@ -1,3 +1,5 @@
+var x = window.matchMedia("(max-width: 700px)")
+
 //--Hamburger menu--
 
 const hamburger = document.querySelector(".hamburger");
