@@ -40,7 +40,9 @@ function myFunction() {
 
     if (window.pageYOffset > sticky) {
       header.classList.add("sticky");
+      body.classList.add("paddingtop");
     } else {
       header.classList.remove("sticky");
+      body.classList.remove("paddingtop");
     }
   }
