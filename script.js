@@ -19,7 +19,7 @@ document.querySelectorAll(".nav-link").forEach(n=> n.addEventListener("click", (
 //--Sticky header----------------------------------
 
 // When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
+window.onscroll = function() { myFunction()};
 
 
 
