@@ -270,6 +270,8 @@ height: auto;
         padding: 0;
         top: 70px;
         z-index: -1;
+        padding-top: 20px;
+        margin-top: -20px;
      }
 .navbar { 
     display: flex;
