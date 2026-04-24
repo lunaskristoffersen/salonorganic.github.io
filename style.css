@@ -304,6 +304,10 @@ height: auto;
     justify-content: center;
 }
 
+a:hover, a:focus, a:active {
+  text-decoration: none;
+}
+
     }
 
     @media(max-width:615px){
