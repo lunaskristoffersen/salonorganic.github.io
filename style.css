@@ -203,8 +203,8 @@ flex {
 @media(max-width:768px){
 
 .footer {
-    padding-top: 20px;
-    padding-bottom: 0px;
+    padding-top: 60px;
+    padding-bottom: 40px;
 }
 
     .footerh1 {
