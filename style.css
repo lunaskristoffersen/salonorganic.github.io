@@ -116,6 +116,12 @@ socials img {
     width: 100%;
 }
 
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 /*--HAMBURGER MENU START-----------------------------------------------*/
 .navbar { 
     display: flex;
@@ -144,6 +150,9 @@ socials img {
     justify-content: flex-end;
 }
 
+#myHeader {
+    z-index: 1000;
+}
 
 .nav-branding img           {
     height: 70px;
@@ -263,7 +272,9 @@ height: auto;
 
         
 
-    .nav-item{margin: 16px 0;}
+    .nav-item{
+        margin: 16px 0;
+    width: 100%;}
 
     .nav-menu.active{
         position: fixed;
@@ -286,6 +297,11 @@ height: auto;
 
 .nav-link:hover             {
     background-color:none;
+}
+
+.nav-link           {
+    display: flex;
+    justify-content: center;
 }
 
     }

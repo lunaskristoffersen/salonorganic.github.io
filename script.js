@@ -1,4 +1,4 @@
-var x = window.matchMedia("(max-width: 700px)")
+
 
 //--Hamburger menu--
 
@@ -36,13 +36,3 @@ var sticky = header.offsetTop;
 
 
 // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-
-    if (window.pageYOffset > sticky) {
-      header.classList.add("sticky");
-      body.classList.add("paddingtop");
-    } else {
-      header.classList.remove("sticky");
-      body.classList.remove("paddingtop");
-    }
-  }
