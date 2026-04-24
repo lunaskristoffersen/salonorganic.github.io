@@ -306,6 +306,8 @@ height: auto;
 
 a:hover, a:focus, a:active {
   text-decoration: none;
+  color: #42560700;
+   -webkit-tap-highlight-color: transparent !important;
 }
 
     }
