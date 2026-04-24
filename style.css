@@ -304,6 +304,12 @@ height: auto;
     justify-content: center;
 }
 
+a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: #42560700;
+   -webkit-tap-highlight-color: transparent !important;
+}
+
     }
 
     @media(max-width:615px){
