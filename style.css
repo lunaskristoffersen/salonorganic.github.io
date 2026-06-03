@@ -70,7 +70,7 @@ align-content: flex-start;
 
 
 .footera {
-font-family: "Roboto", sans-serif;
+font-family: "syne", sans-serif;
 color: #ffffff;
 font-weight: 300;
 font-size: 24px;
@@ -199,6 +199,138 @@ flex {
     align-items: center;
 }
 
+div1 {
+    margin-top: 70px !important;
+    display: flex;
+    height: 500px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    align-items: center;
+}
+
+div2 {
+    display: flex;
+    height: 500px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    align-items: center;
+}
+
+
+billede {
+    height: 100%;
+    display: flex;
+    position:relative;
+    width: 50%;
+    object-fit: fill;
+    margin: 0%;
+    padding: 0;
+    overflow: hidden;
+    justify-content: center;
+}
+
+billedetekst {
+   height: 100%;
+    text-align: center;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+teksth1 {
+font-family: "Roboto", sans-serif;
+color: #2E4C1B;
+font-weight: 700;
+font-size: 28px;
+width: 90%;
+}
+
+teksth2 {
+font-family: "syne", sans-serif;
+color: #2E4C1B;
+font-weight: 400;
+font-size: 24px;
+width: 80%;
+line-height: 25px;
+}
+
+.billede {
+    width: 100%;
+    object-fit: cover;  
+      display: flex;
+    overflow: hidden;
+    object-position: bottom;
+}
+
+@media(max-width:1274px){
+teksth1 {
+font-family: "Roboto", sans-serif;
+color: #2E4C1B;
+font-weight: 700;
+font-size: 28px;
+width: 100%;
+}
+    teksth2 {
+font-family: "syne", sans-serif;
+color: #2E4C1B;
+font-weight: 400;
+font-size: 22px;
+width: 95%;
+line-height: 25px;
+}
+}
+
+@media(max-width:1096px){
+billede {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.billede {
+  height: 400px;
+    width: 100%;
+    object-fit: cover;  
+      display: flex;
+    overflow: hidden;
+    object-position: bottom;
+}
+
+billedetekst {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+div1 {
+            display: flex;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 0;
+}
+div2 {
+            display: flex;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-content: center;
+}
+}
 
 @media(max-width:768px){
 
@@ -339,4 +471,64 @@ a:hover, a:focus, a:active {
     height: 300px !important;
   }
 }
-        
+
+@media(max-width:450px){
+billede {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.billede {
+  height: 250px;
+    width: 100%;
+    object-fit: cover;  
+      display: flex;
+    overflow: hidden;
+    object-position: bottom;
+}
+
+billedetekst {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+div1 {
+            display: flex;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 0;
+}
+div2 {
+            display: flex;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-content: center;
+}
+teksth1 {
+font-family: "Roboto", sans-serif;
+color: #2E4C1B;
+font-weight: 700;
+font-size: 20px;
+width: 100%;
+}
+    teksth2 {
+font-family: "syne", sans-serif;
+color: #2E4C1B;
+font-weight: 400;
+font-size: 18px;
+width: 90%;
+line-height: 20px;
+}
+}
