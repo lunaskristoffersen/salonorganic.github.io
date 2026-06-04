@@ -552,7 +552,7 @@ line-height: 20px;
 
     .nav-menu{
         position: fixed;
-        top:-100%;
+        top:-1000px;
         flex-direction: column;
         background-color: #425607;
         width:100%;
@@ -564,8 +564,6 @@ z-index: -1;
 justify-content: inherit;
 height: auto;
 }
-
-        
 
     .nav-item{
         margin: 16px 0;
