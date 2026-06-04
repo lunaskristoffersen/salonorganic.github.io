@@ -570,12 +570,16 @@ height: auto;
     width: 100%;}
 
     .nav-menu.active{
-        position: fixed;
+        max-height: calc(100vh - 70px) !important;
+        overflow-y: scroll !important;
+        position: absolute;
+    overflow: scroll;
         padding: 0;
         top: 70px;
         z-index: -1;
         padding-top: 20px;
         margin-top: -20px;
+        max-height: 700px;
      }
 .navbar { 
     display: flex;
