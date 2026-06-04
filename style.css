@@ -434,7 +434,7 @@ height: auto;
 }
 
 .nav-link:hover             {
-    background-color:none;
+    background-color:transparent;
 }
 
 .nav-link           {
@@ -444,7 +444,7 @@ height: auto;
 
 a:hover, a:focus, a:active {
   text-decoration: none;
-  color: #42560700;
+  color: #ffffff;
    -webkit-tap-highlight-color: transparent !important;
 }
 
@@ -593,7 +593,7 @@ height: auto;
 }
 
 .nav-link:hover             {
-    background-color:none;
+    background-color:transparent;
 }
 
 .nav-link           {
@@ -603,7 +603,7 @@ height: auto;
 
 a:hover, a:focus, a:active {
   text-decoration: none;
-  color: #42560700;
+  color: #ffffff;
    -webkit-tap-highlight-color: transparent !important;
 }
 }
