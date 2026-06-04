@@ -533,7 +533,8 @@ line-height: 20px;
 }
 }
 
-@media (orientation: landscape) {
+@media(max-width:1007px){
+
     .hamburger
         {
             display: block;
@@ -603,5 +604,4 @@ a:hover, a:focus, a:active {
   color: #42560700;
    -webkit-tap-highlight-color: transparent !important;
 }
-
-    }
+}
