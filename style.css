@@ -220,6 +220,13 @@ div2 {
     align-items: center;
 }
 
+#contents {
+    color: #254a12;
+    font-family: "Roboto", sans-serif;
+    align-items: center;
+    font-weight: 500;
+    width: 70%;
+}
 
 billede {
     height: 100%;
