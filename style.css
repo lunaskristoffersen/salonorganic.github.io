@@ -200,7 +200,6 @@ flex {
 }
 
 div1 {
-    margin-top: 70px !important;
     display: flex;
     height: 500px;
     width: 100%;
@@ -220,12 +219,60 @@ div2 {
     align-items: center;
 }
 
+.herologo {
+    height: 200px;
+    width: auto;
+}
+
+button {
+    background-color: #5F7D08;
+     width: 300px;
+    height: 70px;
+    padding: 0;
+    border-width: 0;
+    border-radius: 20px;
+    font-family: "Syne", sans-serif;
+    color: #FEFEFE;
+    text-decoration: none;
+    font-size: 34px;
+}
+
+button:hover {
+    margin-top: -2px;
+    background-color: #2E4C1B;
+    zoom: 1.03;
+}
+
+hero {
+    margin-top: 70px !important;
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-image: url("img/forsidehero.webp");
+     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+linje {
+    display: flex;
+    background-color: #5F7D08;
+    height: 10px;
+    width: 100%;
+}
+
 #contents {
     color: #254a12;
     font-family: "Roboto", sans-serif;
     align-items: center;
     font-weight: 500;
-    width: 70%;
+    width: 80%;
+    padding-bottom: 10px;
+    font-size: 18px;
+    line-height: 20px;
 }
 
 billede {
@@ -479,7 +526,26 @@ a:hover, a:focus, a:active {
   }
 }
 
-@media(max-width:450px){
+@media(max-width:500px){
+
+.herologo {
+    width: 100%;
+    height: auto;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+}
+
+hero {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 5px;
+}
+
 billede {
     height: 250px;
     width: 100%;
@@ -541,6 +607,12 @@ line-height: 20px;
 }
 
 @media(max-width:1007px){
+
+    button:hover {
+    margin-top: 0px;
+    background-color: #5F7D08;
+    zoom: 1;
+}
 
     .hamburger
         {
