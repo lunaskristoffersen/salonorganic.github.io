@@ -16,7 +16,19 @@ html {
     width: 100%;
 }
 
+.darker {
+filter: contrast(1.1);
+}
 
+.fireflex {
+    display: flex;
+    width: 100% !important;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 .sticky + .content          {padding-top: 102px;}
 
@@ -171,6 +183,10 @@ padding-right: 30px;
 padding-left: 30px;
 } 
 
+.alhøjde {
+    height: 600px;
+}
+
 .nav-link:hover             {
     background-color: #425607;
 }
@@ -209,6 +225,16 @@ div1 {
     align-items: center;
 }
 
+.vend {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.vend2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 div2 {
     display: flex;
     height: 500px;
@@ -221,7 +247,7 @@ div2 {
 
 .herologo {
     height: 200px;
-    width: auto;
+    width: 100%;
 }
 
 button {
@@ -238,7 +264,7 @@ button {
 }
 
 button:hover {
-    margin-top: -2px;
+    margin-bottom: -3px;
     background-color: #2E4C1B;
     zoom: 1.03;
 }
@@ -262,6 +288,7 @@ linje {
     background-color: #5F7D08;
     height: 10px;
     width: 100%;
+    margin-bottom: -2px;
 }
 
 #contents {
@@ -287,6 +314,11 @@ billede {
     justify-content: center;
 }
 
+img {
+    overflow-clip-margin: inherit;
+    overflow: auto;
+}
+
 billedetekst {
    height: 100%;
     text-align: center;
@@ -305,6 +337,14 @@ font-size: 28px;
 width: 90%;
 }
 
+tekstfire {
+font-family: "Roboto", sans-serif;
+color: #2E4C1B;
+font-weight: 700;
+font-size: 28px;
+}
+
+
 teksth2 {
 font-family: "syne", sans-serif;
 color: #2E4C1B;
@@ -315,6 +355,15 @@ line-height: 25px;
 }
 
 .billede {
+    width: 100%;
+    object-fit: cover;  
+      display: flex;
+    overflow: hidden;
+    object-position: bottom;
+}
+
+.billedeal {
+    height: 600px;
     width: 100%;
     object-fit: cover;  
       display: flex;
@@ -341,12 +390,34 @@ line-height: 25px;
 }
 
 @media(max-width:1096px){
+
+
+.vend {
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: center;
+            flex-wrap: nowrap;
+}
+
+
 billede {
     height: 400px;
     width: 100%;
     object-fit: cover;
     display: flex;
     margin-bottom: 0;
+}
+
+.alhøjde {
+    height: auto;
+}
+
+.billedeal {
+    height: auto !important; 
+    width: 100%;
+    object-fit: cover;  
+    overflow: auto !important;
+    object-position: bottom;
 }
 
 .billede {
@@ -387,6 +458,29 @@ div2 {
 }
 
 @media(max-width:768px){
+
+    .fireflex {
+    display: flex;
+    width: 100% !important;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+            tekstfire {
+font-family: "Roboto", sans-serif;
+color: #2E4C1B;
+font-weight: 700;
+font-size: 18px;
+width: 200px;
+}
+
+.firearlogo {
+    width: auto;
+    height: 50px;
+}
 
 .footer {
     padding-top: 60px;
@@ -502,9 +596,14 @@ a:hover, a:focus, a:active {
    -webkit-tap-highlight-color: transparent !important;
 }
 
+.herologo {
+    height: 150px;
+}
+
     }
 
     @media(max-width:615px){
+
           map {
     width: 100% !important;
     height: 300px !important;
@@ -527,6 +626,10 @@ a:hover, a:focus, a:active {
 }
 
 @media(max-width:500px){
+
+.darker {
+filter: contrast(1.2);
+}
 
 .herologo {
     width: 100%;
@@ -609,6 +712,7 @@ line-height: 20px;
 @media(max-width:1007px){
 
     button:hover {
+        margin-bottom: 0;
     margin-top: 0px;
     background-color: #5F7D08;
     zoom: 1;
