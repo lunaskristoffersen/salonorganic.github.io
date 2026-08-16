@@ -80,8 +80,74 @@ align-content: flex-start;
     height: auto;
 }
 
+table {
+  border-spacing: 40px 0px;  
+  font-family: "syne", sans-serif;
+  color: #2E4C1B;
+    font-size: 32px;
+    width: 90%;
+}
+
+table, td {
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+table, th {
+    padding-top: 00px;
+    padding-bottom: 00px;
+}
+
+.priserh1 {
+    justify-content: center;
+    display: flex; 
+    width: 100%; 
+    text-align: center;
+    height: 80px;
+    align-items: center;
+    font-size: 38px;
+}
+
+.servicegrøn {
+    padding-left: 20px;  
+    background: #D5F8B3; 
+    font-weight: 400;
+    line-break: auto;
+}
+
+.prisgrøn {
+    width: 20%; 
+    text-align: center; 
+    background: #D5F8B3; 
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+}
+
+.servicegrå {
+    padding-left: 20px;  
+    background: #EDF4DB; 
+    font-weight: 400;
+    line-break: auto;
+}
+
+.prisgrå {
+    width: 20%; 
+    text-align: center; 
+    background: #EDF4DB;
+ font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+tableflex {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 .footera {
+margin-top: 5px;
 font-family: "syne", sans-serif;
 color: #ffffff;
 font-weight: 300;
@@ -459,6 +525,30 @@ div2 {
 
 @media(max-width:768px){
 
+    table {
+    width: 100%;
+}
+
+.prisgrøn {
+    width: 30%; 
+    text-align: center; 
+    background: #D5F8B3; 
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+}
+
+
+.prisgrå {
+    width: 30%; 
+    text-align: center; 
+    background: #EDF4DB;
+ font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+    
     .fireflex {
     display: flex;
     width: 100% !important;
@@ -603,6 +693,63 @@ a:hover, a:focus, a:active {
     }
 
     @media(max-width:615px){
+
+table {
+    width: 100%;
+    border-spacing: 20px 0px;  
+}
+table, td {
+    width: 600px;
+    font-size: 24px;
+}
+
+.servicegrøn {
+    padding-left: 10px; 
+    padding-right: 5px; 
+    background: #D5F8B3; 
+    font-weight: 400;
+    line-break: auto;
+}
+
+.prisgrøn {
+    width: 30%; 
+    text-align: center; 
+    background: #D5F8B3; 
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.servicegrå {
+    padding-left: 10px; 
+    padding-right: 5px; 
+    background: #EDF4DB; 
+    font-weight: 400;
+    line-break: auto;
+}
+
+.prisgrå {
+    font-size: 22px;
+    width: 30%; 
+    text-align: center; 
+    background: #EDF4DB;
+ font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.priserh1 {
+    justify-content: center;
+    display: flex; 
+    width: 100%; 
+    text-align: center;
+    height: 80px;
+    align-items: center;
+    font-size: 30px;
+}
 
           map {
     width: 100% !important;
